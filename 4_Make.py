@@ -1,5 +1,7 @@
 '''
-Define four subroutines - add, subtract, multiply, divide that add multiply etc two numbers and return the result. Each should have two integer number arguments.
+Define four subroutines - add, subtract, multiply, divide that add multiply etc two numbers and return the result.
+Each should have two integer number arguments.
+
 The user is asked to input two numbers. These numbers will be passed as arguments into one of the subroutines.
 The user is asked to input 1 to add, 2 to subtract etc.
 If they input 1, call the ‘add’ subroutine, input 2 calls the ‘subtract’ subroutine etc
@@ -7,3 +9,23 @@ Output the returned result as part of a sentence.
 
 
 '''
+
+def add (arg1: int, arg2: int) -> int:
+    return arg2 + arg1
+
+def subtract (arg1: int, arg2: int) -> int:
+    return arg2 - arg1
+
+
+def multiply (arg1: int, arg2: int) -> int:
+    return arg2 * arg1
+
+
+def divide (arg1: int, arg2: int) -> int:
+    return arg2 / arg1
+
+
+def main():
+    print(divide(1,2))
+
+main()
